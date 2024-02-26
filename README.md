@@ -42,5 +42,7 @@ Note: The one section that I believe you need to be the most specific on is Mana
 ---------------------------------------------------------------------------------------
 Bugs:
 For the Database being used (Scryfall API to get all the magic data) their are sometimes mis-translations between specifically Set Names. Because its exact their are some translations such as for Hallowed Fountain, "Ravnica: Clue Edition" when in the database its actually labeled as Ravnica Remastered in the set_name database.
-Because of this you will not get a result if you put in a filter that is spelt incorrectly (not case sensitive though). If a card is not found probably remove a filter to find it or change the output of the client file to give you the set_name instead of name so you can find what its stated as in the database.  
+Because of this you will not get a result if you put in a filter that is spelt incorrectly (not case sensitive though). If a card is not found probably remove a filter to find it or change the output of the client file to give you the set_name instead of name so you can find what its stated as in the database. 
 
+
+![UMLpng](https://github.com/Aizenhow/CS361MICRO/assets/114388054/91903f81-fb1d-404a-b0ec-122957b0acd6)
