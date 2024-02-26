@@ -19,18 +19,26 @@ At the end of this README.txt there are some bugs I have found that I will attem
 
 This is an example output that works for the program when given the 5 filters:
 
-Enter filter criteria for cards. Leave blank to ignore a criterion.
-Color: U,W
-Type Line: Legendary Creature — Bird Wizard
-Rarity: rare
-Mana Cost: {2}{W}{U}
-Set Name: Invasion
-Filter conditions: {'colors': ['U', 'W'], 'type_line': 'Legendary Creature — Bird Wizard', 'rarity': 'rare', 'mana_cost': '{2}{W}{U}', 'set_name': 'Invasion'}
+Enter filter criteria for cards. 
+Leave blank to ignore a criterion.
+
+Color: **U,W**
+
+Type Line: **Legendary Creature — Bird Wizard**
+
+Rarity: **rare**
+
+Mana Cost: **{2}{W}{U}**
+
+Set Name: **Invasion**
+
+Filter conditions: **{'colors': ['U', 'W'], 'type_line': 'Legendary Creature — Bird Wizard', 'rarity': 'rare', 'mana_cost': '{2}{W}{U}', 'set_name': 'Invasion'}**
 
 Filtered cards:
-Kangee, Aerie Keeper
 
-Note: The one section that I believe you need to be the most specific on is Mana Cost, as you are required to put the {} around the number or type to be counted correctly. Hyphen or Dash needs to be used as well for Type Lines but anything can be typed out without worrying about case sensitivity.
+**Kangee, Aerie Keeper**
+
+Note: The one section that I believe you need to be the most specific on is Mana Cost, as you are required to put the {} around the number or type to be counted correctly. Hyphen or Dash needs to be used as well for Type Lines but anything can be typed out without worrying about case sensitivity. make sure commans exist for only colors, as you don't need it for Mana Cost as shown in the example.
 ---------------------------------------------------------------------------------------
 Bugs:
 For the Database being used (Scryfall API to get all the magic data) their are sometimes mis-translations between specifically Set Names. Because its exact their are some translations such as for Hallowed Fountain, "Ravnica: Clue Edition" when in the database its actually labeled as Ravnica Remastered in the set_name database.
